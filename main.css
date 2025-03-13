@@ -200,10 +200,8 @@ span{
   flex-direction: column;
   background-color: white; 
   border: 12px black;
-
   gap: 15px; /* Space between form elements */
-  width: 100%; /* Take up full width */
-  max-width: 400px; /* Limit the width of the form */
+  width: 620px; /* Take up full width */
   padding: 20px; /* Add some padding */
   border-radius: 8px; /* Add rounded corners */
   box-shadow: 0 4px 6px rgba(0, 0, 0, .6); /* Add a subtle shadow */
@@ -279,3 +277,15 @@ span{
 .contact-left-title{
   color: black;
 }
+.image-box-2 {
+    flex: 1; /* Take up available space */
+    max-width: 35%; /* Limit the width */
+    display: flex;
+    justify-content: center; /* Center image horizontally */
+    align-items: center; /* Center image vertically */
+  }
+  .image-box-2 img {
+    max-width: 100%; /* Ensure responsiveness */
+    border-radius: 12px;
+    height: 440px;
+  }
