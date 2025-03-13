@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catching Up With Friends</title>
+    <link rel="stylesheet" href="main.css"/>
+</head>
+<body>
+
+  <section class="section-1">
+    <div class="overlay">
+      <h1>Why Wait to Catch Up With Friends?</h1>
+      <h2>Tell them you <span class="auto-type"></span> them</h2>
+      <button class="chat-button" onclick="scrollToSection2()">Send Message Now</button>
+    </div>
+      <div class="scroller" data-direction="left" data-speed="slow">
+          <div class="scroller__inner">
+            <img src="Eng134/D4BEECC2-4AF2-4F2A-B4D8-C9FFE9FD77C8.JPG" alt="" />
+            <img src="Eng134/IMG_9156.JPG" alt="" loading="lazy"/>
+            <img src="Eng134/IMG_0136.JPG" alt="" loading="lazy"/>
+            <img src="Eng134/IMG_0214.JPG" alt="" loading="lazy"/>
+            <img src="Eng134/IMG_0256.JPG" alt="" loading="lazy"/>
+            <img src="Eng134/IMG_0283.jpg" alt="" loading="lazy"/>
+          </div>
+        </div>
+
+      <div class="scroller" data-direction="right" data-speed="fast">
+        <div class="scroller__inner">
+          <img src="Eng134/IMG_0511.jpg" alt="" loading="lazy"/>
+          <img src="Eng134/IMG_0947.JPG" alt="" loading="lazy"/>
+          <img src="Eng134/IMG_2670_Original.jpg" alt="" loading="lazy"/>
+          <img src="Eng134/IMG_9516.JPG" alt=""loading="lazy" />
+          <img src="Eng134/IMG_9612.JPG" alt="" loading="lazy"/>
+          <img src="Eng134/IMG_9792.JPG" alt="" loading="lazy"/>
+        </div>
+      </div>
+      <div class="scroller" data-direction="left" data-speed="fast">
+          <div class="scroller__inner">
+            <img src="Eng134/IMG_5321.JPEG" alt="" loading="lazy"/>
+            <img src="Eng134/IMG_5346.JPEG" alt="" loading="lazy"/>
+            <img src="Eng134/IMG_5437.JPG" alt="" loading="lazy"/>
+            <img src="Eng134/IMG_9891.JPG" alt="" loading="lazy"/>
+            <img src="Eng134/IMG_1851.JPG" alt="" loading="lazy"/>
+            <img src="Eng134/IMG_1906.JPG" alt="" loading="lazy"/>
+          </div>
+        </div>
+        <div class="scroller" data-direction="right" data-speed="fast">
+          <div class="scroller__inner">
+            <img src="Eng134/IMG_1948.JPG" alt="" loading="lazy"/>
+            <img src="Eng134/IMG_1953.JPG" alt="" loading="lazy"/>
+            <img src="Eng134/IMG_2022.PNG" alt="" loading="lazy"/>
+            <img src="Eng134/IMG_2088.JPG" alt="" loading="lazy"/>
+            <img src="Eng134/IMG_2162.JPG" alt="" loading="lazy"/>
+            <img src="Eng134/IMG_2717.jpeg" alt="" loading="lazy"/>
+          </div>
+      </div>
+      
+    </section>
+    <section id="section-2" class="section-2">
+      <div class="content-container">
+        <div class="text-box">
+          <h2>About This Website</h2>
+          <p>
+Project 4 is a simple website designed to help friends reconnect by sharing pictures and sparking meaningful conversations. Inspired by the challenges of staying in touch during the fast-paced college life, this project addresses the difficulty of maintaining connections with hometown friends as we not only grow apart geographically, but also emotionally. The website leverages the power of pathos, using nostalgic images to evoke memories of shared laughter, joy, and the bonds we’ve built over time. By providing an easy and heartfelt way to send a picture or a message, this platform encourages users to reach out, spark conversations, and remind each other of the enduring strength of their friendships—even when life gets busy.
+          </p>
+        </div>
+        <div class="image-box">
+          <img src="FhXfog1WAAQmxJB.jpg" alt="Time Spent With Friends">
+        </div>
+      </div>
+    </section>
+    <section id="section-3" class="section-3">
+      <div class = 'contact-container'></div>
+        <form action=""  class = 'contact-left'>
+          <div class = 'contact-left-title' >
+              <h2>Write a Message!</h2>
+          </div>
+          <input type = "text" name ="name" placeholder="Your Name" class = "class-inputs" required>
+          <input type = "email" name ="email" placeholder="Email" class = "class-inputs" required>
+          <textarea name = "message" placeholder="Say something cool!" class = "class-inputs" required></textarea>
+          <button type = 'submit' >Submit</button>
+        </form>
+        <div class = 'contact-right'> 
+        </div>
+    </section>
+
+<script src="scroller.js"></script>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script>
+  var typed = new Typed(".auto-type", {
+    strings: ['love','miss','like','want to hug','want to see','will call'],
+    typeSpeed: 25,
+    backSpeed:25,
+    backDelay: 1000,
+    startDelay: 500,
+    loop: true
+
+  });
+</script>
+</body>
+</html>
